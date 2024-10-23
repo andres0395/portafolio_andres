@@ -108,3 +108,22 @@ a{
   display: block;
   width: 100%;
 }
+.title{
+  background: linear-gradient(
+    to right,
+    #196d3d 20%,
+    #ffffff 40%,
+    #ffffff 60%,
+    #196d3d 80%
+  );
+  background-size: 200%;
+  animation: shine 3s linear infinite;
+  color: transparent;
+  background-clip: text;
+  font-weight: 600;
+}
+@keyframes shine {
+  to{
+    background-position: 200% center;
+  }
+}

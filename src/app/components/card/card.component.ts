@@ -16,11 +16,11 @@ export class CardComponent {
       image:'./images/imgs/poli0.png',
       descSub:'enseñar angular de manera avanzada a estudiantes universitarios... ver mas',
       imgs:[
-        'https://i.postimg.cc/y8GNyj6S/poli1.png',
-        'https://i.postimg.cc/tTQCLgxq/poli12.png',
-        'https://i.postimg.cc/52y0zTJV/poli3.png',
-        'https://i.postimg.cc/jjJSgfC3/poli4.png',
-        'https://i.postimg.cc/0QY2xqYp/poli15.png'
+        './images/imgs/poli1.png',
+        './images/imgs/poli12.png',
+        './images/imgs/poli3.png',
+        './images/imgs/poli4.png',
+        './images/imgs/poli15.png'
       ]
     },
     {
@@ -29,11 +29,11 @@ export class CardComponent {
       image:'./images/imgs/techelit1.png',
       descSub:'desarrolle una landing y un panel de administrador el cual... ver mas',
       imgs:[
-        'https://i.postimg.cc/3N3rxb1z/techelit1.png',
-        'https://i.postimg.cc/ZYLKM4Km/techelit12.png',
-        'https://i.postimg.cc/j2vxwQk2/techelit13.png',
-        'https://i.postimg.cc/X777MmpC/techelit14.png',
-        'https://i.postimg.cc/bNCYqgtF/techelit15.png'
+        './images/imgs/techelit1.png',
+        './images/imgs/techelit12.png',
+        './images/imgs/techelit13.png',
+        './images/imgs/techelit14.png',
+        './images/imgs/techelit15.png'
       ]
     },
     {
@@ -42,11 +42,11 @@ export class CardComponent {
       image:'./images/imgs/employ1.png',
       descSub:'Desarrollador web con Angular, TypeScript y Node... ver mas',
       imgs:[
-        'https://i.postimg.cc/HW0V1bzf/employ1.png',
-        'https://i.postimg.cc/Kj5z7y4Z/employ2.png',
-        'https://i.postimg.cc/prvrndWG/employ13.png',
-        'https://i.postimg.cc/FR31RS4k/employ14.png',
-        'https://i.postimg.cc/wT63q3b3/employ15.png'
+        './images/imgs/employ1.png',
+        './images/imgs/employ2.png',
+        './images/imgs/employ13.png',
+        './images/imgs/employ14.png',
+        './images/imgs/employ15.png'
       ]
     },
   ];

@@ -26,7 +26,7 @@ export class AppComponent implements OnInit {
     {name:'POSTGRES',img:'./images/postgres-removebg-preview.png'},
     {name:'PYTHON',img:'./images/python-removebg-preview.png'},
     {name:'JAVASCRIPT',img:'./images/javascript.png'},
-    {name:'TYPESCRIPT',img:'https://i.postimg.cc/rstkjmxk/typescript-removebg-preview.png'}
+    {name:'TYPESCRIPT',img:'./images/ts.png'}
   ]
   ngOnInit(): void {
     initFlowbite();
