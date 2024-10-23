@@ -33,7 +33,7 @@ export class AppComponent implements OnInit {
     initFlowbite();
   }
   downloadPDF() {
-    const pdfUrl = './images/HVandres_munoz.pdf';
+    const pdfUrl = './cvAndresMunoz.pdf';
     const pdfName = 'cv_andres_munoz.pdf';
 
     const link = document.createElement('a');
