@@ -5,11 +5,12 @@ import { initFlowbite } from 'flowbite';
 import { TimelineComponent } from './components/timeline/timeline.component';
 import { CardComponent } from './components/card/card.component';
 import { EmailComponent } from './components/email/email.component';
+import { FooterComponent } from "./components/footer/footer.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,NgClass,TimelineComponent,CardComponent, EmailComponent],
+  imports: [RouterOutlet, NgClass, TimelineComponent, CardComponent, EmailComponent, FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
