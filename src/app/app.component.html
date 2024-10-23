@@ -258,14 +258,38 @@
   <section id="skills" class=" mb-10">
     <h5 style="margin-top: 44px;" class="mb-10 text-yellow-50 font-black  text-center">HABILIDADES</h5>
     <section class="bg-white dark:bg-gray-900">
-      <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-              <div class="carousel flex justify-center">
-                <div class="carousel-track flex overflow-y-auto  items-end">
-                  @for (item of dataImg; track $index){
-                    <img [src]="item.img" alt="" >
-              }
-            </div>
+      <!-- <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+        <div class="carousel flex justify-center">
+          <div class="carousel-track flex overflow-y-auto  items-end">
+            @for (item of dataImg; track $index){
+              <img [src]="item.img" alt="" >
+            }
+          </div>
         </div>
+      </div> -->
+
+      <div class="sliderimg w-4/5 lg:w-2/4">
+        <div class="slidetr">
+          @for (item of dataImg; track $index){
+            <div class="slidei">
+              <img [src]="item.img" alt="" >
+            </div>
+          }
+          @for (item of dataImg; track $index){
+            <div class="slidei">
+              <img [src]="item.img" alt="" >
+            </div>
+          }
+        </div>
+      </div>
+      <div class="grid place-content-center mb-8">
+        <ul class="flex gap-3 flex-wrap justify-center">
+          @for (item of dataImg; track $index){
+            <li class="text-yellow-50 font-black">
+              {{ item.name}}
+            </li>
+          }
+        </ul>
       </div>
       <div class="btnCls flex justify-center">
         <button class="button" type="button" (click)="downloadPDF()">
